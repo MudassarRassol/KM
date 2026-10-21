@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1280" width="720" height="1280">
+  <defs>
+    <linearGradient id="p3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#182329"/>
+      <stop offset="50%" stop-color="#14181E"/>
+      <stop offset="100%" stop-color="#141012"/>
+    </linearGradient>
+    <linearGradient id="gold3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2DFB3"/>
+      <stop offset="100%" stop-color="#C9A24B"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="1280" fill="url(#p3)"/>
+  <rect x="20" y="20" width="680" height="1240" rx="24" fill="none" stroke="url(#gold3)" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Store Raid Boutique Entrance & Rack Artwork -->
+  <g transform="translate(360, 480)">
+    <!-- Boutique Arch Display -->
+    <path d="M -180 200 L -180 -100 A 180 180 0 0 1 180 -100 L 180 200 Z" fill="#1C2128" stroke="url(#gold3)" stroke-width="3"/>
+    <text x="0" y="-80" font-family="'Playfair Display', serif" font-size="22" fill="#C9A24B" text-anchor="middle" letter-spacing="4">FLAGSHIP BOUTIQUE</text>
+    
+    <!-- Mannequin & Clothes Racks -->
+    <line x1="-140" y1="20" x2="140" y2="20" stroke="url(#gold3)" stroke-width="4"/>
+    <line x1="-140" y1="20" x2="-140" y2="180" stroke="url(#gold3)" stroke-width="4"/>
+    <line x1="140" y1="20" x2="140" y2="180" stroke="url(#gold3)" stroke-width="4"/>
+
+    <!-- Hanging Luxury Outfits -->
+    <path d="M -100 30 L -70 160 L -130 160 Z" fill="#B3123F"/>
+    <path d="M -30 30 L 0 160 L -60 160 Z" fill="#C9A24B"/>
+    <path d="M 40 30 L 70 160 L 10 160 Z" fill="#EAA6B1"/>
+    <path d="M 110 30 L 140 160 L 80 160 Z" fill="#2E1C28"/>
+  </g>
+
+  <g transform="translate(360, 1080)">
+    <text x="0" y="-40" font-family="'Poppins', sans-serif" font-size="16" font-weight="600" fill="#C9A24B" text-anchor="middle" letter-spacing="4">STORE RAID &amp; LAUNCH</text>
+    <text x="0" y="5" font-family="'Playfair Display', serif" font-size="28" font-weight="600" fill="#FFF8F1" text-anchor="middle">Designer Boutique Walkthrough</text>
+    <text x="0" y="38" font-family="'Poppins', sans-serif" font-size="14" fill="#D8BDC4" text-anchor="middle">Footfall Driver &amp; New Arrival Edit</text>
+  </g>
+</svg>

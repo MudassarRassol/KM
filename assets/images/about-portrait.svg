@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" width="800" height="900">
+  <defs>
+    <linearGradient id="aboutBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22171C"/>
+      <stop offset="50%" stop-color="#191216"/>
+      <stop offset="100%" stop-color="#29121E"/>
+    </linearGradient>
+    <linearGradient id="aboutGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2DFB3"/>
+      <stop offset="50%" stop-color="#C9A24B"/>
+      <stop offset="100%" stop-color="#8C6D27"/>
+    </linearGradient>
+    <linearGradient id="aboutBlush" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6D5D9"/>
+      <stop offset="100%" stop-color="#EAA6B1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="900" fill="url(#aboutBg)" rx="28"/>
+  <rect x="24" y="24" width="752" height="852" rx="20" fill="none" stroke="url(#aboutGold)" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Aesthetic Editorial Elements -->
+  <circle cx="400" cy="380" r="260" fill="#B3123F" opacity="0.12"/>
+  
+  <!-- Modern Editorial Silhouette & Accessories -->
+  <g transform="translate(400, 420)">
+    <!-- Elegant Blazer & Scarf / Modest Ensemble -->
+    <path d="M -160 300 Q -100 120 -50 80 L 0 100 L 50 80 Q 100 120 160 300 Z" fill="#150E12" stroke="url(#aboutGold)" stroke-width="1.5"/>
+    <path d="M -80 85 L 0 220 L 80 85" fill="#3D1826" stroke="url(#aboutGold)" stroke-width="1"/>
+    <!-- Pearl Necklace / Jewellery -->
+    <path d="M -45 50 Q 0 95 45 50" fill="none" stroke="#F6D5D9" stroke-width="5" stroke-dasharray="1 8" stroke-linecap="round"/>
+    <!-- Head profile -->
+    <ellipse cx="0" cy="-40" rx="65" ry="85" fill="#DFB79F"/>
+    <!-- Chic high-fashion hairstyle / hijab drape -->
+    <path d="M -75 -40 Q 0 -170 75 -40 Q 90 60 45 100 Q 0 70 -45 100 Q -90 60 -75 -40 Z" fill="#181115"/>
+    <!-- Sunglasses / Luxury accessory -->
+    <rect x="-48" y="-55" width="40" height="24" rx="6" fill="#141012" stroke="url(#aboutGold)" stroke-width="1.5"/>
+    <rect x="8" y="-55" width="40" height="24" rx="6" fill="#141012" stroke="url(#aboutGold)" stroke-width="1.5"/>
+    <line x1="-8" y1="-43" x2="8" y2="-43" stroke="url(#aboutGold)" stroke-width="2"/>
+    <!-- Lips -->
+    <path d="M -14 -12 Q 0 -4 14 -12" stroke="#B3123F" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- Editorial typography watermark -->
+  <text x="400" y="740" font-family="'Playfair Display', serif" font-size="28" font-style="italic" fill="#FFF8F1" text-anchor="middle" letter-spacing="2">The Art of Refined Storytelling</text>
+  <text x="400" y="775" font-family="'Poppins', sans-serif" font-size="12" fill="#C9A24B" text-anchor="middle" letter-spacing="4">FAISALABAD | LAHORE</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <defs>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C9A24B"/>
+      <stop offset="100%" stop-color="#E5C77A"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="236" height="76" rx="8" fill="none" stroke="currentColor" stroke-width="1" opacity="0.15"/>
+  <rect x="26" y="26" width="28" height="28" rx="6" fill="none" stroke="url(#g4)" stroke-width="1.5" transform="rotate(45 40 40)"/>
+  <text x="135" y="37" font-family="'Playfair Display', serif" font-size="16" font-weight="600" fill="currentColor" text-anchor="middle" letter-spacing="3">RAYAN</text>
+  <text x="135" y="52" font-family="'Poppins', sans-serif" font-size="9" fill="currentColor" opacity="0.6" text-anchor="middle" letter-spacing="2">MODEST PRET</text>
+</svg>
